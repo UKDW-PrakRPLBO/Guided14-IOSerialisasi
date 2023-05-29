@@ -1,6 +1,6 @@
 package com.rplbo.javaio;
 
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Hello world!
@@ -9,8 +9,15 @@ import java.io.IOException;
 public class App 
 {
     public static void main( String[] args ) throws IOException {
-        //coba disini!
-	//Soal 1-4
-	//Soal Serializable
+        //Untuk bagian pertama
+        GuidedIO g1 = new GuidedIO();
+        g1.readDirectory("<path>");
+        g1.cekFileSimilarity("<path1>","<path2>");
+        g1.cekPythagoras();
+        g1.linearSearch();
+
+        //IO untuk GameCharacter:
+        //Save
+        //Open dan baca powernya
     }
 }
